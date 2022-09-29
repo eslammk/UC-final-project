@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BagShopping">
+
+    <TextView
+        android:id="@+id/textViewshop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:text="Shopping Bag"
+        android:textColor="#07713C"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bagg"
+        android:layout_width="401dp"
+        android:layout_height="682dp"
+        android:background="@drawable/backg" />
+
+
+</LinearLayout>
