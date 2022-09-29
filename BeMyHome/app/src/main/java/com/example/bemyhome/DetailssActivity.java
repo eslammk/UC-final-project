@@ -32,7 +32,7 @@ public class DetailssActivity extends AppCompatActivity {
         pricetextt.setText(sentItem.getPriceeItem() +"KD");
         iimg.setImageResource(sentItem.getImggItem());
         aadd.setText(sentItem.getAdddItem());
-        desctextt.setText( " this chair for kids ");
+        desctextt.setText( "Description: ");
 
         aadd.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -29,7 +29,7 @@ public class DetailsssActivity extends AppCompatActivity {
         pricetext.setText(sentItem.getPriceeeItem() + "KD");
         img.setImageResource(sentItem.getImgeeItem());
         add.setText(sentItem.getAddddItem());
-        desctext.setText(" this chair for kids ");
+        desctext.setText("Description: ");
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
